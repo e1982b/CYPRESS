@@ -43,3 +43,6 @@ cy.get(loc).trigger('mousedown').click()
 
 //login
 cy.get('#loginpage-input-email').clear().type('username')
+
+// open Cypress app ===> npx cypress open
+// run Test from Terminal ===> npx cypress run --spec "cypress\e2e\day_2\pomEx.cy.js" 
